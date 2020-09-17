@@ -104,7 +104,7 @@ struct HKObjectTypes{
                              HKObjectType.quantityType(forIdentifier: .uvExposure)!,
                              HKObjectType.quantityType(forIdentifier: .vo2Max)!,
                              HKObjectType.quantityType(forIdentifier: .waistCircumference)!,
-                             HKObjectType.quantityType(forIdentifier: .walkingHeartRateAverage)!,
+                             //HKObjectType.quantityType(forIdentifier: .walkingHeartRateAverage)!,
                              ])
     
     let nonsharables = Set([HKObjectType.quantityType(forIdentifier: .walkingHeartRateAverage)!,
