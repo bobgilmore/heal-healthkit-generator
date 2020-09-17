@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         let hkTypes = HKObjectTypes()
         let sampleData = HKSampleData()
-        sampleData.sampleTypes = hkTypes.writables
+        sampleData.sampleTypes = hkTypes.quantityTypes
         sampleData.permission(successBlock: {
             sampleData.writeDataSince(since: (Date() - 20.days))
         })
